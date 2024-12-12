@@ -26,7 +26,7 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
   
 
     
-fetch("https://jsonplaceholder.typicode.com/posts/:id", {
+fetch("https://jsonplaceholder.typicode.com/posts/3", {
     method: 'Delete',
 })
     .then(response => response.json())
